@@ -1,0 +1,78 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly spec, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class spec.CReversiSpec: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext 'get set' : 
+  Methods:
+    get_TestContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_TestContext(TestContext): PrivateScope, Public, HideBySig, SpecialName
+    Reversi_TestCreateGame(): PrivateScope, Public, HideBySig
+    Reversi_TestInitializeWithColor(): PrivateScope, Public, HideBySig
+    Reversi_TestInitGameOver(): PrivateScope, Public, HideBySig
+    Reversi_TestInitGameOverZeroCoins(): PrivateScope, Public, HideBySig
+    Reversi_TestInitGameDraw(): PrivateScope, Public, HideBySig
+    Reversi_TestMoveCount(): PrivateScope, Public, HideBySig
+    Reversi_TestMoveInvalid(): PrivateScope, Public, HideBySig
+    Reversi_TestFullGame1(): PrivateScope, Public, HideBySig
+    Reversi_TestFullGame2(): PrivateScope, Public, HideBySig
+    Reversi_TestFullGame3(): PrivateScope, Public, HideBySig
+    Reversi_TestFullGame4(): PrivateScope, Public, HideBySig
+    Reversi_TestHelpers1(): PrivateScope, Public, HideBySig
+    Reversi_TestHelpers2(): PrivateScope, Public, HideBySig
+    Reversi_TestHelpers3(): PrivateScope, Public, HideBySig
+    Reversi_TestHelpers4(): PrivateScope, Public, HideBySig
+Class spec.C15PuzzleSpec: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext 'get set' : 
+  Methods:
+    get_TestContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_TestContext(TestContext): PrivateScope, Public, HideBySig, SpecialName
+    checkTable(Int32**, Int32**, Int32, Int32): PrivateScope, Public, HideBySig
+    checkTable(Int32**, Int32*, Int32, Int32): PrivateScope, Public, HideBySig
+    C15Puzzle_TestCreateBoardNegetiveTests(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestCreateBoardPositiveTest1(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestInitializeBoardNegetive(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestInitializeBoardPostive(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestCheckBoardNegetive(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestCheckBoardPositive(): PrivateScope, Public, HideBySig
+    compareUser(User*, User*): PrivateScope, Public, HideBySig
+    C15Puzzle_TestCreateUser(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestModifyMoveCountBasedOnProccessInput(): PrivateScope, Public, HideBySig
+    validateBoard(Board*): PrivateScope, Public, HideBySig
+    checkRows(Board*, Board*): PrivateScope, Public, HideBySig
+    checkColumns(Board*, Board*): PrivateScope, Public, HideBySig
+    checkEmptyTileRow(Board*, Board*): PrivateScope, Public, HideBySig
+    checkEmptyTileCol(Board*, Board*): PrivateScope, Public, HideBySig
+    checkEmptyTilePosition(Board*, Board*): PrivateScope, Public, HideBySig
+    compareBoards(Board*, Board*): PrivateScope, Public, HideBySig
+    createBoardSpec(Int32*, Int32, Int32): PrivateScope, Public, HideBySig
+    compareStrings(SByte*, SByte*): PrivateScope, Public, HideBySig
+    compareBoardAndUsers(Board*, Board*, User*, User*): PrivateScope, Public, HideBySig
+    testMove(Int32*, Int32*, Int32, Int32, Int32, SByte*, SByte IsSignUnspecifiedByte): PrivateScope, Public, HideBySig
+    testMoves(Int32*, Int32*, Int32, Int32, Int32, SByte*, SByte*): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveRightValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveRightInValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveLeftValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveLeftInValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveUpInValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveUpValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveDownValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveDownInValid(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveSequence1(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveSequence2(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveSequenceHard1(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveSequenceHard2(): PrivateScope, Public, HideBySig
+    C15Puzzle_TestMoveSequenceLeadingToWin(): PrivateScope, Public, HideBySig

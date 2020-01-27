@@ -1,0 +1,1 @@
+{"project_name":"CGames","project_gitrepo":"https://github.com/mission-rnd/C-Games.git","project_page":"http://mission-rnd.github.io/C/part-3/C-15PuzzleGame.htm","language":"c","project_validator":"vstest.console.exe","project_steps":["C15Puzzle","CReversi"]}
